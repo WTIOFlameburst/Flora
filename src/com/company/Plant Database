@@ -1,10 +1,10 @@
-Tomato:Fruit:
-Cucumber
-Rose
-Cactus
-Tulip
-Avocado
-Lily
-Jade Plant
-Snake Plant
-Ivy
+Tomato:Fruit
+Cucumber:Fruit
+Rose:Flower
+Cactus:Plant
+Tulip:Flower
+Avocado:Fruit
+Lily:Flower
+Jade Plant:Plant
+Snake Plant:Plant
+Ivy:Plant
