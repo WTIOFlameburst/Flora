@@ -10,8 +10,12 @@ public class plant {
     private int plantAge;
 
     // Constructors
-    public plant(){
-
+    public plant(String plantName, String plantType, String daysPerWater) {
+        this.plantName = plantName;
+        this.plantType = plantType;
+        this.daysPerWater = Integer.parseInt(daysPerWater);
+        this.daysUntilWater = this.daysPerWater;
+        this.plantAge = 0;
     }
 
     public plant (String plantType){
@@ -39,11 +43,11 @@ public class plant {
     }
 
     public String getPlantName(){
-        return getPlantName();
+        return plantName;
     }
 
     public String getPlantType(){
-        return getPlantType();
+        return plantType;
     }
 
     public int getPlantAge(){
@@ -56,7 +60,7 @@ public class plant {
         this.daysPerWater = daysPerWater;
     }
 
-    public void setDaysPerWater(int daysUntilWater){
+    public void setDaysUntilWater(int daysUntilWater){
         this.daysPerWater = daysUntilWater;
     }
 
